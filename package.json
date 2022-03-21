@@ -4,7 +4,9 @@
     "description": "this is new course for learning Ts",
     "main": "src/index.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node src/index.ts"
+
     },
     "repository": {
         "type": "git",
@@ -18,6 +20,7 @@
     "homepage": "https://github.com/tonthetop/TS_labs#readme",
     "devDependencies": {
         "@types/node": "^17.0.21",
+        "prettier": "^2.6.0",
         "tslint": "^6.1.3",
         "typescript": "^4.6.2"
     }
